@@ -1,0 +1,115 @@
+Occlusion Sensitivity Analysis Summary
+============================================================
+Model type: densenet121
+Test dataset: ../chest_xray/test
+Device: cpu
+Random seed: 42
+Patch size: 32
+Stride: 16
+
+------------------------------------------------------------
+TP
+------------------------------------------------------------
+Total images in category: 376
+Occlusion analyses completed: 376
+Mean max probability drop: 0.062994
+Median max probability drop: 0.027004
+Mean edge drop: 0.045984
+Mean center drop: 0.053495
+Max-drop location classified as edge: 141/376 (37.50%)
+Edge drop > center drop: 141/376 (37.50%)
+Random heatmaps saved: 6
+
+------------------------------------------------------------
+TN
+------------------------------------------------------------
+Total images in category: 154
+Occlusion analyses completed: 154
+Mean max probability drop: 0.064797
+Median max probability drop: 0.032301
+Mean edge drop: 0.056870
+Mean center drop: 0.031431
+Max-drop location classified as edge: 111/154 (72.08%)
+Edge drop > center drop: 111/154 (72.08%)
+Random heatmaps saved: 6
+
+------------------------------------------------------------
+FP
+------------------------------------------------------------
+Total images in category: 80
+Occlusion analyses completed: 80
+Mean max probability drop: 0.202279
+Median max probability drop: 0.221871
+Mean edge drop: 0.170135
+Mean center drop: 0.157104
+Max-drop location classified as edge: 38/80 (47.50%)
+Edge drop > center drop: 38/80 (47.50%)
+Random heatmaps saved: 6
+
+------------------------------------------------------------
+FN
+------------------------------------------------------------
+Total images in category: 14
+Occlusion analyses completed: 14
+Mean max probability drop: 0.123152
+Median max probability drop: 0.104543
+Mean edge drop: 0.097533
+Mean center drop: 0.098758
+Max-drop location classified as edge: 6/14 (42.86%)
+Edge drop > center drop: 6/14 (42.86%)
+Random heatmaps saved: 6
+
+============================================================
+Overall Summary
+============================================================
+Total images analyzed: 624
+Overall mean max drop: 0.082646
+Overall mean edge drop: 0.065744
+Overall mean center drop: 0.062348
+
+
+============================================================
+Part 3: Category-Level Summary
+============================================================
+Total analyzed images: 624
+
+Category: TP
+  Sample count: 376
+  Mean max drop: 0.062994
+  Median max drop: 0.027004
+  Std max drop: 0.082113
+  Mean edge drop: 0.045984
+  Mean center drop: 0.053495
+  Max-drop location classified as edge: 37.50%
+  Edge drop greater than center drop: 37.50%
+
+Category: TN
+  Sample count: 154
+  Mean max drop: 0.064797
+  Median max drop: 0.032301
+  Std max drop: 0.073470
+  Mean edge drop: 0.056870
+  Mean center drop: 0.031431
+  Max-drop location classified as edge: 72.08%
+  Edge drop greater than center drop: 72.08%
+
+Category: FP
+  Sample count: 80
+  Mean max drop: 0.202279
+  Median max drop: 0.221871
+  Std max drop: 0.116963
+  Mean edge drop: 0.170135
+  Mean center drop: 0.157104
+  Max-drop location classified as edge: 47.50%
+  Edge drop greater than center drop: 47.50%
+
+Category: FN
+  Sample count: 14
+  Mean max drop: 0.123152
+  Median max drop: 0.104543
+  Std max drop: 0.074157
+  Mean edge drop: 0.097533
+  Mean center drop: 0.098758
+  Max-drop location classified as edge: 42.86%
+  Edge drop greater than center drop: 42.86%
+

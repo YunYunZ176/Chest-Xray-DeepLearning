@@ -1,0 +1,46 @@
+============================================================
+InceptionV3 Test Results
+============================================================
+
+Overall Performance
+----------------------------------------
+Test Samples : 624
+Accuracy     : 0.7452
+Precision    : 0.7104
+Sensitivity  : 1.0000
+Specificity  : 0.3205
+F1-score     : 0.8307
+AUC          : 0.9364
+
+
+Confusion Matrix
+----------------------------------------
+[[ 75 159]
+ [  0 390]]
+
+Classification Report
+----------------------------------------
+              precision    recall  f1-score   support
+
+      NORMAL     1.0000    0.3205    0.4854       234
+   PNEUMONIA     0.7104    1.0000    0.8307       390
+
+    accuracy                         0.7452       624
+   macro avg     0.8552    0.6603    0.6581       624
+weighted avg     0.8190    0.7452    0.7012       624
+
+
+Class-wise Analysis
+----------------------------------------
+
+NORMAL
+Total       : 234
+Correct     : 75
+Wrong       : 159
+Recall      : 32.05%
+
+PNEUMONIA
+Total       : 390
+Correct     : 390
+Wrong       : 0
+Recall      : 100.00%

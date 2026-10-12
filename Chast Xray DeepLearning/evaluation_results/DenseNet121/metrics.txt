@@ -1,0 +1,46 @@
+============================================================
+DenseNet121 Test Results
+============================================================
+
+Overall Performance
+----------------------------------------
+Test Samples : 624
+Accuracy     : 0.8494
+Precision    : 0.8246
+Sensitivity  : 0.9641
+Specificity  : 0.6581
+F1-score     : 0.8889
+AUC          : 0.9460
+
+
+Confusion Matrix
+----------------------------------------
+[[154  80]
+ [ 14 376]]
+
+Classification Report
+----------------------------------------
+              precision    recall  f1-score   support
+
+      NORMAL     0.9167    0.6581    0.7662       234
+   PNEUMONIA     0.8246    0.9641    0.8889       390
+
+    accuracy                         0.8494       624
+   macro avg     0.8706    0.8111    0.8275       624
+weighted avg     0.8591    0.8494    0.8429       624
+
+
+Class-wise Analysis
+----------------------------------------
+
+NORMAL
+Total       : 234
+Correct     : 154
+Wrong       : 80
+Recall      : 65.81%
+
+PNEUMONIA
+Total       : 390
+Correct     : 376
+Wrong       : 14
+Recall      : 96.41%

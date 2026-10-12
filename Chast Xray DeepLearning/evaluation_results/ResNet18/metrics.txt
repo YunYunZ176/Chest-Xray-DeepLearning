@@ -1,0 +1,46 @@
+============================================================
+ResNet18 Test Results
+============================================================
+
+Overall Performance
+----------------------------------------
+Test Samples : 624
+Accuracy     : 0.8510
+Precision    : 0.8180
+Sensitivity  : 0.9795
+Specificity  : 0.6368
+F1-score     : 0.8915
+AUC          : 0.9449
+
+
+Confusion Matrix
+----------------------------------------
+[[149  85]
+ [  8 382]]
+
+Classification Report
+----------------------------------------
+              precision    recall  f1-score   support
+
+      NORMAL     0.9490    0.6368    0.7621       234
+   PNEUMONIA     0.8180    0.9795    0.8915       390
+
+    accuracy                         0.8510       624
+   macro avg     0.8835    0.8081    0.8268       624
+weighted avg     0.8671    0.8510    0.8430       624
+
+
+Class-wise Analysis
+----------------------------------------
+
+NORMAL
+Total       : 234
+Correct     : 149
+Wrong       : 85
+Recall      : 63.68%
+
+PNEUMONIA
+Total       : 390
+Correct     : 382
+Wrong       : 8
+Recall      : 97.95%
